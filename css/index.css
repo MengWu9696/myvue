@@ -1,0 +1,103 @@
+
+.animsition{
+	width:100%;
+	padding: 0 110px;
+}
+.panel{
+	height:150px;
+	margin:0 auto;
+}
+.panel ul li{
+	float: left;
+	width:33.33%;
+	margin:0 auto;
+}
+.Bpart{
+	padding-left: 80px;
+}
+.panel ul li p{
+	font-size: 12px;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.panel ul li .blodword{
+	font-size: 16px;
+	font-weight: 700;
+}
+img{
+	float: left;
+	margin:0 20px;
+}
+.collecttime{
+	font-size: 12px;
+	text-align: right;
+	padding-top:10px;
+	padding-right:20px;
+}
+.Ctime{
+	margin-left: 1px;
+}
+.modal{
+	width:45%;
+	margin: 0 auto;
+}
+.modal-content{
+	font-size: 12px;
+	padding: 0px 30px;
+}
+.modal-body{
+	overflow:hidden;
+}
+.modaltop{
+	float:left;	
+}
+.innerimg{
+	padding-left: 0;
+}
+.modaltop p{
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	margin:0 auto;
+}
+.perInfo li{
+	font-weight: 700;
+	width:33.33%;
+	float: left;
+}
+.perInfo span{
+	font-weight: normal;
+}
+.details{
+	border-bottom: 1px solid #ddd;
+}
+.details div{
+	display: inline-block;
+}
+.details li div:first-child{
+	vertical-align: top;
+}
+.details li div:first-child{
+	font-weight:700;
+}
+.experence h5{
+    color:#00a9cd;
+    font-size: 14px;
+}
+.experence .firstline{
+	font-weight: 700;
+}
+.experence li {
+	padding: 10px 15px;
+	border-bottom: 1px solid #ddd;
+}
+.experence li:last-child {
+	border-bottom: none;
+}
+.modal-dialog{height:95%;margin-bottom: 0}
+.modal-content{height:96%;overflow-y:auto;padding-left: 40px;}
+.modal-header{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}

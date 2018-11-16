@@ -1,0 +1,339 @@
+*{
+    font-family: 'Microsoft YaHei' ;
+    margin: 0;
+    padding: 0;
+}
+body, html, p, code {
+    color: #37474f;
+}
+ul{
+  list-style: none;
+}
+body{
+  font-weight: normal;
+}
+
+.animsition{
+  min-height: 100%;
+}
+.page{
+  height: auto;
+}
+.page-header{
+  padding: 15px 20px;
+}
+/*头部*/
+/*.site-navbar{
+  background:url(../images/nav.png);
+}*/
+.navbar-right{
+  margin-right: 15px;
+}
+.navbar-header{
+  padding-top: 18px;
+  padding-left: 20px;
+}
+.navbar-header strong{
+    font-size:18px;
+    vertical-align: middle; 
+    font-weight: bold;
+}
+.site-navbar{
+  background-color: #00a9cd
+}
+.site-navbar .navbar-container{
+  background-color: rgba(0,0,0,0);
+}
+.site-menubar-unfold .page, .site-menubar-unfold .site-footer{
+  margin-left: 0;
+}
+.navbar-default .navbar-toolbar > li{
+  display: inline-block;
+ 
+}
+.navbar-default .navbar-toolbar > li > .btnuser{
+    padding-top: 25px;
+  color: #fff;
+  border:none;
+  background-color: transparent;
+   font-size: 12px;
+}
+.navbar-default .navbar-toolbar > li > .btnuser:hover,
+.navbar-default .navbar-toolbar > li > .btnuser:link,
+.navbar-default .navbar-toolbar > li > .btnuser:visited,
+.navbar-default .navbar-toolbar > li > .btnuser:active,
+.navbar-default .navbar-toolbar > li > .btnuser:focus{
+  background-color: transparent !important;
+}
+ 
+.navbar-default .navbar-toolbar > li > a.btnOut{
+ 
+  color: #fff;
+  font-size: 12px;
+}
+
+.navbar-default .navbar-toolbar > li > a:hover,
+.navbar-default .navbar-toolbar > li > a:link,
+.navbar-default .navbar-toolbar > li > a:visited,
+.navbar-default .navbar-toolbar > li > a:active{
+  background-color: rgba(0,0,0,0);
+}
+ 
+
+
+
+.page-content{
+  padding: 20px 20px;
+}
+
+.panel{
+    margin-bottom: 1.543rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.search input::-webkit-input-placeholder{ 
+    color:    #7fe4b8;
+}
+.search input:-moz-placeholder{  
+    color:    #7fe4b8;
+}
+.search input::-moz-placeholder {  
+    color:    #7fe4b8;
+}
+.search input:-ms-input-placeholder { 
+    color:    #7fe4b8;
+}
+
+
+/*左边*/
+.site-menubar-body{
+  padding-top: 30px;
+}
+.site-menu>.site-menu-item {
+    margin-top: 10px;
+}
+
+
+
+
+/*多选框*/
+.checkbox-custom {
+    padding-left: 20px;
+}
+.checkbox-custom, .radio-custom {
+    position: relative;
+    display: block;;
+}
+.checkbox-custom input[type=radio], .checkbox-custom input[type=checkbox] {
+    opacity: 0;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+}
+.checkbox-custom input[type=checkbox], .radio-custom input[type=radio] {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+.checkbox-custom label {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 10px;
+}
+input[type=checkbox], input[type=radio] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+.checkbox-custom label, .radio-custom label {
+    min-height: 22px;
+    line-height: 22px;
+    margin-bottom: 0;
+    font-weight: 300;
+    cursor: pointer;
+    max-width: 100%;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::before, 
+.checkbox-primary input[type="radio"]:checked + label::before {
+    background-color: #3e8ef7;
+    border-color: #3e8ef7;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::after, 
+.checkbox-primary input[type="radio"]:checked + label::after {
+    color: #ffffff;
+}
+.checkbox-custom label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+.checkbox-custom label::after {
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    left: 0;
+    top: 0;
+    margin-left: -20px;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 12px;
+    color: #76838f;
+}
+.checkbox-custom input[type=radio]:checked+label::after, .checkbox-custom input[type=checkbox]:checked+label::after {
+    font-family: "Web Icons";
+    content: "\f192";
+}
+
+
+/*面包屑导航*/
+.breadcrumb {
+  /*border:1px solid #cde0f5; 
+  background-color: #e8eff5; */
+ 
+  margin-bottom: 30px;
+  line-height: 40px;
+  /*color: #3e8ef7; */
+  
+}
+.breadcrumb span{
+  font-size: 18px;
+}
+.breadcrumb .breadcrumb-item{
+  font-size: 12px;
+ 
+}
+.breadcrumb .breadcrumb-item i{
+  margin-left: 20px;
+  font-size: 16px; 
+}
+.breadcrumb .breadcrumb-item span{
+   vertical-align: middle;
+
+}
+.breadcrumb .time{
+  float: right;
+  display: inline-block;
+  color: #76838f;
+  font-size: 12px;
+  padding-right: 30px;
+}
+.breadcrumb .time span{
+   color: #3e8ef7; 
+}
+ 
+.checkbox-custom, .radio-custom {
+  margin-top: 0;
+}
+.pagehead >div.time{
+ 
+}
+
+ 
+ 
+/**/
+.text-center{
+  text-align: center;
+}
+.padding-30{
+  padding: 30px;
+}
+.padding-left-30{
+  padding-left: 30px;
+}
+.padding-right-30{
+  padding-right: 30px;
+}
+
+.padding-top-30{
+  padding-top: 30px;
+}
+.padding-bottom-30{
+  padding-bottom: 30px;
+}
+.margin-right-20{
+  margin-right: 20px;
+}
+.margin-left-20{
+  margin-left: 20px;
+}
+/*文字前面小方块*/
+.ibox{
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+}
+ 
+/*label*/
+label{
+  font-weight: normal;
+}
+ 
+  
+/*按钮颜色*/
+.btn-primary{
+  /*蓝色*/
+  background-color: #3e8ef7;
+  color: #fff;
+}
+.btn-info-2:hover,
+.btn-info-2:link,
+.btn-info-2:visited,
+.btn-info-2:active,
+.btn-info-2:focus{
+  color: #fff !important;
+}
+ 
+
+.icon-arrow-right::before{
+    content:'>';
+    font-weight: bold;
+}
+.icon-arrow-left::before{
+    content:'<';
+    font-weight: bold;
+}
+.dropdown-menu {
+    transition: none !important;
+}
+
+
+.example{
+  margin: 0;
+  border: 1px solid #e4eaec;
+}
+.example table{
+  margin-bottom: 0
+}
